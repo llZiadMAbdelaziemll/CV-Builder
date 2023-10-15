@@ -1,0 +1,67 @@
+.app{
+  position: relative;
+}
+.wave{
+  position: absolute;
+  z-index: -1;
+  fill: #0099ff;
+
+  
+}
+.logo{
+  margin-left: 150px;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+.header{
+  margin-top: -40px;
+  margin-bottom: 140px;
+}
+.progressbar {
+  width:40%;
+  height: 36px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+.progressbar .icon{
+  border-radius: 50%;
+  background-color: #0099ff27;
+  padding: 6px 8px;
+  color: #0099ff;
+}
+/* .progressbar .line{
+  position: relative;
+  width: 200px;
+  height: 7px;
+  background-color: #0099ff27;
+} */
+
+/* .progressbar .line-fill1{
+  width: 60px;
+  height: 7px;
+  position: absolute;
+  margin-left: 40px;
+  background-color: #0099ff;
+} */
+
+.progressbar .proggress {
+  width: 20%;
+  height: 100%;
+  background-color: rgba(13, 110, 253, 1);
+}
+
+.page-display{
+  
+  margin: auto;
+  width: 60%;
+  box-shadow: 5px 5px  50px  5px rgba(106, 109, 112, 0.676);
+  padding-bottom: 26px;
+  background-color: white;
+  
+}
+
+.button-container {
+  margin-left: 10px;
+  width: 100%;
+}
+
