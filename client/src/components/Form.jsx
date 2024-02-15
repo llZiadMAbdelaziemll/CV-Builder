@@ -133,9 +133,9 @@ const Form = () => {
           onClick={() => {
             if (page === FormTitle.length - 1) {
               axios
-                .post("http://localhost:5000/create-pdf", formData)
+                .post("http://localhost:3001/create-pdf", formData)
                 .then(() =>
-                  axios.get("http://localhost:5000/fetch-pdf", {
+                  axios.get("http://localhost:3001/fetch-pdf", {
                     responseType: "blob",
                   })
                 )
